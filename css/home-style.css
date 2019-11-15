@@ -42,18 +42,13 @@ body {
     min-width: 856.35px;
 }
 
-#headline-gradient {
-
+#headline-clip {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 200px;
-}
-
-#gradient {
-    /* display: none; */
-    width: 100%;
-
+    height: 100px;
+    clip-path: polygon(0% 100%, 130% 100%, 0% 0%);
+    background-color: #FFF;  
 }
 
 #headline-container p {
@@ -69,6 +64,7 @@ body {
     background: -webkit-linear-gradient(rgb(255, 155, 5), rgb(153, 66, 45));
     -webkit-text-stroke: 2px rgb(255, 255, 255);
     /* background: -webkit-linear-gradient(rgb(5, 255, 180), rgb(66, 178, 252)); */
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
