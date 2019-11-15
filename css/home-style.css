@@ -29,12 +29,12 @@ body {
     background-position-y: top;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 672px;
+    /* height: 650px; */
 }
 
 #headline {
     padding-top: 90px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,18 +46,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 100px;
-    clip-path: polygon(0% 100%, 130% 100%, 0% 0%);
+    height: 200px;
+    clip-path: polygon(0% 100%, 130% 100%, 50% 100%, 0% 0%);
+    -webkit-clip-path: polygon(0% 100%, 130% 100%, 50% 100%, 0% 0%);
     background-color: #FFF;  
 }
-
-#headline-container p {
-    font-size: 24px;
-    font-family: 'Pragati Narrow', sans-serif;
-    color: rgb(167, 143, 134);
-    text-align: center;
-}
-
 #caption {
     font-size: 64px;
     font-family: 'Fredoka One', cursive;
@@ -71,8 +64,17 @@ body {
 }
 
 #description {
-    font-size: 32px;
     font-family: 'Pragati Narrow', sans-serif;
+    font-size: 24px;
+    color: rgb(167, 143, 134);
+    text-align: center;
+}
+
+#quote {
+    margin-top: 48px;
+    font-size: 42px;
+    font-family: 'Pragati Narrow', sans-serif;
+    font-weight: 700;
     color: rgb(255, 255, 255);
     text-align: center;
 }
@@ -116,6 +118,9 @@ body {
     height: 50px;
     position: sticky;
     top: 0;
+    max-width: 50%;
+    margin-right: 0;
+    margin-left: auto;
 
 }
 
@@ -130,21 +135,50 @@ body {
     text-decoration: none;
     color: black;
     font-family: 'Pragati Narrow', sans-serif;
-    font-size: 2em;
+    font-size: 24px;
     padding: 0 15px 0 15px;
 }
 
 section {
     min-height: 1000px;
+    margin: 0 5% 0 5%;
 }
 
-#home {
+#podcast-info {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.illustration {
+    /* align-self: center; */
+    width: 45%
+}
+
+#listener-info {
     display: flex;
     justify-content: flex-end;
 }
 
-#home img {
-    align-self: center;
+.text-box {
+    width: 55%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-box h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 48px;
+    -webkit-text-stroke: 2px rgb(255, 101, 41);
+    color: rgba(247, 179, 90, 0);
+    padding-bottom: 32px;
+}
+
+.text-box p {
+    font-family: 'Pragati Narrow', sans-serif;
+    padding: 0 5% 0 5%;
+    font-size: 24px;
 }
 
 .active a {
