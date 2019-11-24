@@ -53,6 +53,7 @@
     #menu-container {
         margin-left: 0;
         max-width: 100%;
+        background-color: white;
     }
 
 
@@ -82,13 +83,6 @@
 
     #description {
         font-size: 18px;
-    }
-
-    #menu-container {
-        background-color: white;
-        /* border-top: 2px solid rgb(255, 101, 41);
-        border-bottom: 2px solid rgb(255, 101, 41); */
-
     }
 
     #menu a {
