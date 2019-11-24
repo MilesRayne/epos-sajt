@@ -1,0 +1,36 @@
+@media screen and (max-width: 620px) {
+
+    #message {
+        width: 30em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    #message {
+        width: 20em;
+    }
+}
+
+#number-test {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#number-test p {
+    padding: 0 2px 0 2px;
+}
+
+input {
+    line-height: 2em;
+}
+
+select {
+    line-height: 2em;
+    height: 2em;
+}
+
+#solution {
+    width: 3em;
+}
