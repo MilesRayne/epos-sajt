@@ -38,8 +38,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 45%;  
-    min-width: 856.35px;
+    /* width: 45%;   */
+    /* min-width: 856.35px; */
 }
 
 #headline-clip {
