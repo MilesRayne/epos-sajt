@@ -1,6 +1,10 @@
 
 @media screen and (max-width: 768px) {
 
+    #caption {
+        font-size: 52px;
+    }
+
     #headline-container {
         background-position-x: center;
         background-size: auto 500px;
@@ -18,7 +22,7 @@
     #description {
         font-size: 20px;
         padding: 0 5px 0 5px;
-        
+        color: white;      
     }
 
     .headline-button {
@@ -68,15 +72,13 @@
     }
 
     #caption {
-        font-size: 42px;
+        font-size: 32px;
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
     }
 
     #quote {
-
         font-size: 22px;
     }
-
-   
 
     #description {
         font-size: 18px;
@@ -84,8 +86,8 @@
 
     #menu-container {
         background-color: white;
-        border-top: 2px solid rgb(255, 101, 41);
-        border-bottom: 2px solid rgb(255, 101, 41);
+        /* border-top: 2px solid rgb(255, 101, 41);
+        border-bottom: 2px solid rgb(255, 101, 41); */
 
     }
 
@@ -106,5 +108,21 @@
 
     .text-box {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    #caption {
+        font-size: 24px;
+    }
+
+    #description {
+        font-size: 16px;
+    }
+
+    #quote {
+
+        font-size: 18px;
     }
 }

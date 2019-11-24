@@ -24,7 +24,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     background-image: url(../img/background.jpg);
-    /* background-position-x: center; */
+    background-position-x: center;
     background-position-y: top;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -66,7 +66,7 @@ body {
 #description {
     font-family: 'Pragati Narrow', sans-serif;
     font-size: 24px;
-    color: rgb(167, 143, 134);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
