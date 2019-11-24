@@ -17,7 +17,6 @@ body {
     background-position-x: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 2000px;
 }
 
 #headline-container {
@@ -30,6 +29,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     /* height: 650px; */
+    min-height: 500px;
 }
 
 #headline {
@@ -125,13 +125,12 @@ body {
 } */
 
 #menu-container {
-    height: 50px;
+    /* height: 50px; */
     position: sticky;
     top: 0;
     max-width: 50%;
     margin-right: 0;
     margin-left: auto;
-
 }
 
 #menu {
@@ -150,7 +149,7 @@ body {
 }
 
 section {
-    min-height: 1000px;
+    /* min-height: 1000px; */
     margin: 0 5% 0 5%;
 }
 
@@ -164,12 +163,17 @@ section {
     width: 45%
 }
 
+#pic2 {
+    order: 2;
+}
+
 #listener-info {
     display: flex;
     justify-content: flex-end;
 }
 
 .text-box {
+    order: 0;
     width: 55%;
     text-align: center;
     display: flex;
@@ -193,4 +197,8 @@ section {
 
 .active a {
     color: rgb(255, 101, 41) !important;
+}
+
+.separator {
+    min-height: 100px;
 }

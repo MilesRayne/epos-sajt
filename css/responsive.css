@@ -1,9 +1,18 @@
 
 @media screen and (max-width: 768px) {
 
+    #headline-container {
+        background-position-x: center;
+        background-size: auto 500px;
+    }
+
     #headline {
         width: 100%;
         min-width: 0;
+    }
+
+    #headline-clip {
+        display: none;
     }
 
     #description {
@@ -18,17 +27,84 @@
         background-color: rgb(241, 115, 65);
         color: rgb(255, 255, 255);
     }
+
+    #podcast-info, #listener-info {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #pic2 {
+        order: -1;
+    }
+
+    .illustration {
+        width: 80%;
+        margin: auto;
+    }
+
+    .text-box {
+        margin: auto;
+    }
+
+    #menu-container {
+        margin-left: 0;
+        max-width: 100%;
+    }
+
+
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 585px) {
 
     #headline-container {
-        background-image: none;
-        background-color: white;
+        /* background-image: none; */
+        /* background-color: rgb(255, 214, 139); */
+        min-height: 380px;
+        background-size: auto 380px;
     }
+
+    #headline {
+        padding-bottom: 0;
+    }
+
+    #caption {
+        font-size: 42px;
+    }
+
+    #quote {
+
+        font-size: 22px;
+    }
+
+   
 
     #description {
-        color: black;
+        font-size: 18px;
     }
 
+    #menu-container {
+        background-color: white;
+        border-top: 2px solid rgb(255, 101, 41);
+        border-bottom: 2px solid rgb(255, 101, 41);
+
+    }
+
+    #menu a {
+        font-size: 16px;
+    }
+
+    .text-box h1 {
+        font-size: 24px;
+        -webkit-text-stroke: 0px rgb(255, 101, 41);
+        color: rgb(255, 101, 41);
+    }
+
+    .text-box p {
+        font-size: 18px;
+        padding: 0 2% 0 2%;
+    }
+
+    .text-box {
+        width: 100%;
+    }
 }
