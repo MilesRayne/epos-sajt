@@ -218,3 +218,7 @@ footer p {
     padding: 0 2px 0 2px;
     line-height: 2em;
 }
+
+.blog-text {
+    padding: 0 15px 0 15px;
+}
