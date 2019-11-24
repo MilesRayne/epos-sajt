@@ -205,3 +205,16 @@ section {
 .separator {
     min-height: 100px;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #ee7822;
+    height: 2em;
+    color: white;
+}
+
+footer p {
+    padding: 0 2px 0 2px;
+    line-height: 2em;
+}

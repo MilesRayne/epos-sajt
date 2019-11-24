@@ -39,7 +39,7 @@
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="">Blog</a></li>
-                <li><a href="">Team</a></li>
+                <li><a href="team.html">Team</a></li>
                 <li class="active"><a href="">Contact us</a></li>
             </ul>
     </div>
@@ -61,7 +61,7 @@
                     <option value="questions">Questions for the next Episode</option>
                 </select><br>
                 Message:<br>
-                <textarea id="message" rows = 20 cols="70" onclick="deleteText()" style="resize: none;"></textarea><br>
+                <textarea id="message" rows = 20 cols="70" style="resize: none;"></textarea><br>
                 This message should be sent to:<br>
                 <input type="checkbox" name="person" value="Ashley" id="ashley" checked> Ashley<br>
                 <input type="checkbox" name="person" value="Samir" id="samir"> Samir<br>
@@ -76,7 +76,12 @@
                 
             </form>
     </div>
+
+    <footer>
+        <p>Copyright &#169 FON</p><p id="date">%</p>
+    </footer>
     
+    <script src="js/date.js"></script>
     <script src="js/contact.js"></script>
 </body>
 </html>

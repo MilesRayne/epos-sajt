@@ -45,14 +45,21 @@ $("form").submit(function(event) {
         return;
     }
 
+    var hours = new Date().getHours();
+    var minutes = new Date().getMinutes();
+
+    if (minutes<10) {
+        minutes = '0' + minutes;
+    }
+
     if(reason == 'questions') {
-        $('#info').text('Your question about the next episode has been sent.');
+        $('#info').text('Your question about the next episode has been sent at ' + hours + ':' + minutes + '.');
     }
     else if (reason == 'business') {
-        $('#info').text('Your message regarding business has been sent.');
+        $('#info').text('Your message regarding business has been sent at ' + hours + ':' + minutes + '.');
     }
     else if (reason == 'idea') {
-        $('#info').text('Your idea for the next episode has been sent.');
+        $('#info').text('Your idea for the next episode has been sent at ' + hours + ':' + minutes + '.');
     }
   });
 
