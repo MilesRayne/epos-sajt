@@ -91,7 +91,7 @@
 
     .text-box h1 {
         font-size: 24px;
-        -webkit-text-stroke: 0px rgb(255, 101, 41);
+        -webkit-text-stroke: 0px;
         color: rgb(255, 101, 41);
     }
 
